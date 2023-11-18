@@ -3,12 +3,14 @@ const colors_s = document.querySelector(".color");
 const save = document.querySelector(".save");
 const maxElements = 5; // Maksymalna liczba przechowywanych elementów
 const elementsArray = []; // Tablica przechowująca elementy
-
+var element = document.getElementById("monit_saver");
+    
 btns.forEach(function(btn) {
     
     btn.addEventListener("click", function(e) {
         
-        
+        element.classList.remove("save_monit_hidden");
+        element.classList.add("save_monit");
         const id=new Date().getTime();
         
         const newItem = document.createElement("div");//nowy item z zapisnym kolorem

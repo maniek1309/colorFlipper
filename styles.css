@@ -272,3 +272,18 @@ main {
     letter-spacing: var(--spacing);
     border-radius: var(--radius);
 }
+
+.save_monit{
+    background-color: #fff;
+    display: grid;
+    border-radius: var(--radius);
+    text-align: center;
+}
+.save_monit_hidden{
+    visibility: hidden;
+}
+.save {
+    background-color: #fff;
+    display: grid;
+    border-radius: var(--radius);
+}
